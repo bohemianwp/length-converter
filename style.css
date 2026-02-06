@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: #1a1a1a;
+  background: #f6f7f9;
+}
+
+.container {
+  max-width: 680px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(20, 20, 20, 0.08);
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 26px;
+}
+
+.sub {
+  margin: 0 0 16px;
+  color: #666;
+  font-size: 14px;
+}
+
+.form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+input[type="text"] {
+  flex: 1 1 340px;
+  padding: 12px 14px;
+  font-size: 16px;
+  border: 1px solid #d7dbe0;
+  border-radius: 8px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #4b86ff;
+  box-shadow: 0 0 0 3px rgba(75, 134, 255, 0.15);
+}
+
+button {
+  padding: 12px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4b86ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3b73ea;
+}
+
+.result {
+  margin-top: 18px;
+  padding: 12px 14px;
+  background: #f1f5ff;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.result.error {
+  background: #fff1f1;
+  color: #b00020;
+}
+
+.examples {
+  margin-top: 16px;
+  color: #666;
+  font-size: 13px;
+  display: grid;
+  gap: 6px;
+}
